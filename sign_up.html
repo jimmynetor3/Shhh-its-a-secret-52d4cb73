@@ -5,26 +5,10 @@
     <title>hoi</title>
  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link href="style.css" rel="stylesheet"> 
- 
  </head>
  <body>
- 	<label for="name">name</label>
- 	<input type="text" id="name" name="name" required
-       minlength="4" maxlength="8" size="10">
 
-<div class="preference">
-    <label for="rutte">mark rutte?</label>
-    <input type="checkbox" name="rutte" id="rutte">
-</div>
 
-<div class="preference">
-    <label for="wilders">geert wilder?</label>
-    <input type="checkbox" name="wilders" id="wilders">
-</div>
-
-<p> bit academy test test</p>
-
-<p id="exciting">The most exciting paragraph on the page. One of a kind!</p>
 <form action="#">
   <div class="form-example">
     <label for="name">Enter your name: </label>
@@ -44,11 +28,52 @@
 <input type="password" id="pin" name="pin" required
        minlength="4" maxlength="6" size="20">
 </div>
- <div class="form-example">
+<label for="opties">opties       :</label>
+<select id="optie keuze">
+    <option value="">--Please choose an option--</option>
+    <option value="optie 1">optie 1</option>
+    <option value="optie 2">optie 2</option>
+    <option value="optie 3">optie 3</option>
+    <option value="optie 4">optie 4</option>
+    <option value="optie 5">optie 5</option>
+    <option value="optie 6">optie 6</option>
+</select>
+<div>klik maar:</div> 
+<div>
+    <label for="rutte">mark rutte?</label>
+    <input type="checkbox" name="rutte" id="rutte">
+</div>
+
+<div>
+    <label for="wilders">geert wilder?</label>
+    <input type="checkbox" name="wilders" id="wilders">
+</div>
+<p>kieze maar:</p>
+
+<div>
+ 
+  <label for="kerstmis">kerstmis</label>
+   <input type="radio" id="kerstmis" name="feestdag" value="kerstmis"
+         checked>
+</div>
+
+<div>
+  
+  <label for="pasen">pasen</label>
+  <input type="radio" id="pasen" name="feestdag" value="pasen">
+</div>
+
+<div>
+ 
+  <label for="sint j">sint juttemis</label>
+   <input type="radio" id="sint j" name="feestdag" value="sint j">
+</div>
+
+<div class="form-example">
     <input type="submit" value="Subscribe!">
     <script src="script.js"></script>
-  </div>
+ 
+</div>
 </form>
 </body>
 </html>
->>>>>>> 5ee895f3ce6a1aa52086b659a305c0a7e1b5e4b1
